@@ -1,0 +1,60 @@
+h1 {
+	color: #0000a0;
+	text-align: center;
+	}
+.container {
+			padding: 16px;
+			background-color: white;
+		}
+		
+	input[type=text], input[type=password], input[type=email], input[type=number], input[type="date"]
+	{
+			width: 70%;
+			font-family: Arial, Helevetica, sans-serif;
+			padding: 15px;
+			display: inline-block;
+			border: none;
+			background: #e6e6ff;
+	}
+	.txt {
+			width: 70%;
+			font-family: Arial, Helevetica, sans-serif;
+			padding: 15px;
+			display: inline-block;
+			border: none;
+			background: #e6e6ff;
+			}
+		input[type=text]:focus, input[type=password]:focus {
+			background-color: #d5eaff;
+			outline: none;
+		}
+		.select {
+			width: 75%;
+			font-family: Arial, Helevetica, sans-serif;
+			padding: 15px;
+			display: inline-block;
+			border: none;
+			background: #e6e6ff;
+		}
+		.select:focus {
+			background-color: #d5eaff;
+			outline: none;
+		}
+		#submit {
+			background-color: blue;
+			color: white;
+			padding: 16px 20px;
+			border: none;
+		}
+		#submit:hover {
+			background-color: pink;
+		}
+		#reset {
+			background-color: red;
+			color: white;
+			padding: 16px 20px;
+			border: none;
+		}
+		#reset:hover {
+			background-color: pink;
+		}
