@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>OrderManagement</display-name>
+  
+  
+  <servlet>
+    <servlet-name>AddOrderServlet</servlet-name>
+    <servlet-class>web.oop.servlet.AddOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateOrderServlet</servlet-name>
+    <servlet-class>web.oop.servlet.UpdateOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteOrderServlet</servlet-name>
+    <servlet-class>web.oop.servlet.DeleteOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetOrderServlet</servlet-name>
+    <servlet-class>web.oop.servlet.GetOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListOrderServlet</servlet-name>
+    <servlet-class>web.oop.servlet.ListOrderServlet</servlet-class>
+  </servlet>
+  
+  
+ 
+  <servlet-mapping>
+    <servlet-name>AddOrderServlet</servlet-name>
+    <url-pattern>/AddOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateOrderServlet</servlet-name>
+    <url-pattern>/UpdateOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteOrderServlet</servlet-name>
+    <url-pattern>/DeleteOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOrderServlet</servlet-name>
+    <url-pattern>/GetOrderServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ListOrderServlet</servlet-name>
+    <url-pattern>/ListOrderServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+
+
+  
+  <welcome-file-list>
+    <welcome-file>homeView.html</welcome-file>
+    <welcome-file>homeView.htm</welcome-file>
+    <welcome-file>homeView.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
